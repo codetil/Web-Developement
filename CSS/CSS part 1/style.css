@@ -1,0 +1,49 @@
+h4{
+    /* color property */
+    color: red;
+    /* background color property */
+    background-color: blueviolet;
+}
+p1{
+    /* rgb color system */
+    color: rgb(138, 43, 226);
+    background-color: bisque;
+}
+button{
+    /* Hexcode (Brown) */
+    color: #a52a2a;
+    background-color: aqua;
+}
+h1{
+    /* Text align property */
+    text-align: center;
+    /* Font weight property */
+    font-weight: 900;
+    /* Text decoration property */
+    text-decoration: red double underline;
+    /* Font size */
+    font-size: 50px;
+}
+h2{
+    text-align: left;
+    font-weight: bold;
+    text-decoration: aqua line-through;
+}
+h3{
+    text-align: left;
+    font-weight: 600;
+    text-decoration:pink wavy overline;
+}
+p{
+  text-align: justify; 
+  font-weight: normal; 
+   /*Line height property */
+  line-height: 1.5;
+  /* Font family property */
+  font-family: cursive;
+}
+a{
+    /* Letter spacing property */
+    letter-spacing: 2px;
+   text-decoration: none; 
+}

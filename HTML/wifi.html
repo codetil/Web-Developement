@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head> <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+@media screen and (min-device-width:910px) and (max-device-width:1920px)
+{
+.login{
+	display:block;
+	width:33.3%;
+	margin-left:33.3%;
+	margin-top:100px;
+	border-radius: 4px;
+	padding:2%;
+	box-shadow:1px 1px 1px 1px gray;
+}
+ td{
+	display:block;
+	width:100%;
+	height:20px;
+}
+td h3{
+	margin:0px;
+	padding:0px;
+}
+tr{
+	display:flex;
+	width:100%;
+	height:10px;
+	position:relative;
+	margin-top:2px;
+	margin-bottom:25px;
+}
+table{
+	display:block;
+}
+input{
+	display:block;
+	height:20px;
+	position:relative;
+}
+label{
+	position:relative;
+}
+
+button{
+		display:block;
+		height:20px;
+		width:100%;
+		margin-top:2px;
+		margin-bottom:20px;
+}
+}
+@media screen and  (max-device-width:900px)
+{
+.login{
+	display:block;
+	width:80%;
+	margin-left:10%;
+	margin-top:100px;
+	border-radius: 4px;
+	padding:2%;
+	box-shadow:6px 4px 7px 0px gray;
+}
+ td{
+	display:block;
+	width:100%;
+	height:20px;
+}
+td h3{
+	margin:0px;
+	padding:0px;
+}
+tr{
+	display:flex;
+	width:100%;
+	height:10px;
+	position:relative;
+	margin-top:2px;
+	margin-bottom:25px;
+}
+table{
+	display:block;
+}
+input{
+	display:block;
+	height:20px;
+	position:relative;
+}
+label{
+	position:relative;
+}
+
+button{
+	display:block;
+	height:20px;
+	width:50%;
+	border-radius:5px;
+	margin-left:37.5%;
+	margin-top:2px;
+	background-color:#68c6b0;
+	border: 1px solid;
+	<!-- margin-bottom:20px; -->
+}
+}
+
+</style>
+</head>
+<body>
+<div class ="login">
+	<form action="/getWiFi"  method="post" > 
+		<table>
+			<tr><td colspan =2> <h3 style = "color:#179377;">MENSTRUAL CRAMP SOOTHER WIFI SETUP</H3></td></tr>
+			<tr><td><label for = "ssid" name ="SSID">SSID:</label></td><td><input type = "text" id = "ssid" name = "id"></td></tr>
+			<tr><td><label for = "pswd" name="password" >Password:</label></td><TD><input type = "text" id = "pswd" name = "pswd"></td></tr>
+      <tr><td colspan =2> <button class="submit" name="submit" value="Submit">Submit</button></td></tr>
+		</table>
+	</form>
+</div>
+</body>
+</html>

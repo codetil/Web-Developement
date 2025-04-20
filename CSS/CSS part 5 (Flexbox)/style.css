@@ -1,0 +1,36 @@
+/* Flexbox */
+#container{
+    height: 600px;
+    width: 80%;
+    background-color: beige;
+    margin: 10px auto;
+    border: 2px solid black;
+    /* Display Flex property */
+    display: flex;
+    /* Flexbox direction*/
+    flex-direction: row;
+    /* Justify content */
+    justify-content: flex-start;
+    /* Flex wrap */
+    flex-wrap: wrap;
+    /* Align Items */
+    /* align-items: baseline; */
+    /* Align content */
+    /* align-items: center; */
+}
+h1{
+    text-align: center;
+}
+#container div{
+    height: 100px;
+    width: 50px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+#orange{ 
+    align-self: flex-start;
+    /* Flex sizing */
+    /* flex-basis: 50px; */
+    flex-grow: 1 ;
+} 
